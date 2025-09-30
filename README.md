@@ -17,4 +17,4 @@ Foram implementados três algoritmos do NAS Parallel Benchmark (NPB):
 - O _DO CONCURRENT_ apresenta desempenho competitivo em aplicações com acesso regular à memória (_CG_ e _MG_).
 - Em algoritmos com comunicação global intensiva (_FFT_), o desempenho foi inferior em comparação ao MPI e OpenMP.
 
-# 💡 Este estudo demonstra empiricamente a viabilidade do DO CONCURRENT como alternativa para paralelismo em CPU, oferecendo código mais legível e de fácil manutenção, sem abrir mão da eficiência.
+## 💡 Este estudo demonstra empiricamente a viabilidade do DO CONCURRENT como alternativa para paralelismo em CPU, oferecendo código mais legível e de fácil manutenção, sem abrir mão da eficiência.
