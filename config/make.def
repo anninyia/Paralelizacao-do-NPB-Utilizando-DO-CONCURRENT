@@ -1,0 +1,34 @@
+#---------------------------------------------------------------------------
+# NAS Parallel Benchmarks - Makefile Definitions for MPI (DO_CONCURRENT)
+#---------------------------------------------------------------------------
+
+# Compiladores Fortran e C para MPI
+MPIFC      = mpif90
+FLINK      = $(MPIFC)
+MPICC      = mpicc
+CLINK      = $(MPICC)
+
+# Flags de compilação e link
+FFLAGS     = -O3
+FLINKFLAGS = $(FFLAGS)
+CFLAGS     = -O3
+CLINKFLAGS = $(CFLAGS)
+
+# Diretório onde vão os binários
+BINDIR     = ../bin
+
+# Controle do gerador de números aleatórios
+RAND       = randi8
+
+# Tamanho do recorde de I/O (geralmente 0 funciona bem no Linux)
+CONVERTFLAG = -DFORTRAN_REC_SIZE=0
+
+# Bibliotecas adicionais (garante link com gfortran)
+F_LIB = -lgfortran
+
+# Bibliotecas para C (normalmente math)
+C_LIB = -lm
+
+# Includes (se necessário)
+F_INC =
+C_INC =
