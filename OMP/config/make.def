@@ -1,0 +1,20 @@
+# Compiladores
+F77        = gfortran
+CC         = gcc
+FLINK      = $(F77)
+CLINK      = $(CC)
+
+# Flags de compilação (otimização + OpenMP)
+FFLAGS     = -O3 -fopenmp
+FLINKFLAGS = $(FFLAGS)
+CFLAGS     = -O3 -fopenmp
+CLINKFLAGS = $(CFLAGS)
+
+# Diretório de saída dos executáveis
+BINDIR     = ../bin
+
+# Gerador de números aleatórios
+RAND       = randi8
+
+# Conversão de registros Fortran
+CONVERTFLAG = -DFORTRAN_REC_SIZE=0
