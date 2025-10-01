@@ -1,4 +1,4 @@
-# 🔬 Comparação de Paralelismo em Fortran, _OpenMP_ e _MPI_ com _NAS Parallel Benchmarks_ (NPB)
+# [INCOMPLETO] 🔬 Comparação de Paralelismo em Fortran, _OpenMP_ e _MPI_ com _NAS Parallel Benchmarks_ (NPB)
 
 Este repositório explora e compara diferentes abordagens de paralelismo em Fortran, utilizando:
 
