@@ -1,0 +1,228 @@
+nohup: ignoring input
+====================================
+ NAS Parallel Benchmarks Runner
+====================================
+
+
+Implementação:
+  1 - SERIAL
+  2 - OMP
+  3 - MPI
+  4 - DO_CONCURRENT
+  5 - TODAS
+
+Benchmarks:
+  1 - CG
+  2 - FT
+  3 - MG
+  4 - IS
+  5 - TODOS
+
+====================================
+ Configuração selecionada
+====================================
+  Classe:          C
+  Threads:         4
+  Repetições:      20
+  Implementações:  MPI
+  Benchmarks:      cg ft mg is
+
+
+====================================
+ Implementação: MPI
+====================================
+[0;36m[INFO][0m Compilando MPI → cg ...
+[0;32m[OK][0m Compilado: MPI cg
+
+[0;36m[INFO][0m Executando MPI cg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 7 — tempo: 250.407719s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 1 — tempo: 126.440000s | Mop/s: 1133.72 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 0.000000s | Mop/s: 1101.44 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 126.120000s | Mop/s: 1136.63 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 0.000000s | Mop/s: 1153.07 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 131.680000s | Mop/s: 1088.64 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 0.000000s | Mop/s: 1137.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 134.230000s | Mop/s: 1067.92 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 0.000000s | Mop/s: 1160.30 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 115.120000s | Mop/s: 1245.25 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 0.000000s | Mop/s: 1066.50 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 126.770000s | Mop/s: 1130.81 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 0.000000s | Mop/s: 1046.49 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 131.390000s | Mop/s: 1091.05 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 0.000000s | Mop/s: 1217.01 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 120.610000s | Mop/s: 1188.50 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 0.000000s | Mop/s: 1129.55 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 120.100000s | Mop/s: 1193.61 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 0.000000s | Mop/s: 1258.14 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 112.950000s | Mop/s: 1269.15 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 0.000000s | Mop/s: 1306.11 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 115.020000s | Mop/s: 1246.29 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 0.000000s | Mop/s: 1284.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 113.220000s | Mop/s: 1266.11 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 0.000000s | Mop/s: 1289.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 119.460000s | Mop/s: 1199.99 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 0.000000s | Mop/s: 1273.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → ft ...
+[0;32m[OK][0m Compilado: MPI ft
+
+[0;36m[INFO][0m Executando MPI ft (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 14 — tempo: 110.240000s | Mop/s: 1300.27 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 1 — tempo: 0.000000s | Mop/s: 3820.03 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 119.790000s | Mop/s: 1196.61 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 0.000000s | Mop/s: 3621.31 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 117.820000s | Mop/s: 1216.71 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 0.000000s | Mop/s: 3611.40 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 113.790000s | Mop/s: 1259.80 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 0.000000s | Mop/s: 3621.22 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 111.400000s | Mop/s: 1286.84 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 0.000000s | Mop/s: 3749.48 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 116.720000s | Mop/s: 1228.15 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 0.000000s | Mop/s: 3633.36 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 118.670000s | Mop/s: 1207.92 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → ft ...
+[0;32m[OK][0m Compilado: MPI ft
+
+[0;36m[INFO][0m Executando MPI ft (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 7 — tempo: 0.000000s | Mop/s: 3486.19 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 1 — tempo: 109.200000s | Mop/s: 3629.87 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 0.000000s | Mop/s: 3586.75 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 112.020000s | Mop/s: 3538.60 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 0.000000s | Mop/s: 3792.52 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 109.640000s | Mop/s: 3615.27 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 0.000000s | Mop/s: 3639.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 109.780000s | Mop/s: 3610.75 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 0.000000s | Mop/s: 3625.64 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 126.390000s | Mop/s: 3136.29 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 0.000000s | Mop/s: 3641.97 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 105.980000s | Mop/s: 3740.29 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 0.000000s | Mop/s: 3667.65 | Verificação: SUCCESSFUL
+[0;31m[ERRO][0m Execução falhou (exit 1): MPI ft run 14
+
+[0;36m[INFO][0m   Run 7 — tempo: 108.970000s | Mop/s: 3637.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 0.000000s | Mop/s: 3494.29 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 120.470000s | Mop/s: 3290.39 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 0.000000s | Mop/s: 3402.84 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 113.790000s | Mop/s: 3483.48 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 0.000000s | Mop/s: 3505.75 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 110.810000s | Mop/s: 3577.05 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 0.000000s | Mop/s: 3608.04 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 107.830000s | Mop/s: 3676.06 | Verificação: SUCCESSFUL
+[0;31m[ERRO][0m Execução falhou (exit 1): MPI ft run 12
+
+[0;36m[INFO][0m   Run 19 — tempo: 0.000000s | Mop/s: 3630.98 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 112.460000s | Mop/s: 3524.59 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 0.000000s | Mop/s: 3565.71 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → mg ...
+[0;32m[OK][0m Compilado: MPI mg
+
+[0;36m[INFO][0m Executando MPI mg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 0.000000s | Mop/s: 5254.74 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 110.150000s | Mop/s: 3598.57 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 0.000000s | Mop/s: 6050.92 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 108.290000s | Mop/s: 3660.36 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 0.000000s | Mop/s: 5481.24 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 0.000000s | Mop/s: 5621.71 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 111.620000s | Mop/s: 3551.37 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 0.000000s | Mop/s: 6412.78 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 111.060000s | Mop/s: 3569.06 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 0.000000s | Mop/s: 5607.05 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 0.000000s | Mop/s: 5965.55 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 104.050000s | Mop/s: 3809.59 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 0.000000s | Mop/s: 6699.06 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 109.600000s | Mop/s: 3616.59 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 0.000000s | Mop/s: 6337.90 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 0.000000s | Mop/s: 5285.92 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 111.240000s | Mop/s: 3563.34 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → mg ...
+[0;32m[OK][0m Compilado: MPI mg
+
+[0;36m[INFO][0m Executando MPI mg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 11 — tempo: 0.000000s | Mop/s: 7017.28 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 1 — tempo: 25.870000s | Mop/s: 6018.65 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 0.000000s | Mop/s: 6855.11 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 22.410000s | Mop/s: 6947.56 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 0.000000s | Mop/s: 6766.18 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 23.490000s | Mop/s: 6629.08 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 0.000000s | Mop/s: 6659.79 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 23.830000s | Mop/s: 6534.81 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 0.000000s | Mop/s: 6571.25 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 23.770000s | Mop/s: 6551.18 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 0.000000s | Mop/s: 7019.34 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 20.730000s | Mop/s: 7509.08 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 0.000000s | Mop/s: 6731.23 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 22.050000s | Mop/s: 7060.75 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 0.000000s | Mop/s: 6836.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 22.400000s | Mop/s: 6949.27 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 0.000000s | Mop/s: 7215.31 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 22.710000s | Mop/s: 6854.52 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 0.000000s | Mop/s: 6855.39 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → is ...
+[0;32m[OK][0m Compilado: MPI is
+
+[0;36m[INFO][0m Executando MPI is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 10 — tempo: 22.230000s | Mop/s: 7003.20 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 1 — tempo: 17.773400s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 21.690000s | Mop/s: 7178.00 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 18.759800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 25.250000s | Mop/s: 6164.97 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 18.302600s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 24.630000s | Mop/s: 6320.81 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 18.495300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 23.880000s | Mop/s: 6518.48 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 19.047200s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 26.170000s | Mop/s: 5948.33 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 19.640400s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 25.060000s | Mop/s: 6213.32 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 19.463100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 25.230000s | Mop/s: 6170.95 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 18.576900s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 24.790000s | Mop/s: 6280.02 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 19.528600s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 24.710000s | Mop/s: 6300.37 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 22.769400s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 23.230000s | Mop/s: 6701.64 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → is ...
+[0;32m[OK][0m Compilado: MPI is
+
+[0;36m[INFO][0m Executando MPI is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 11 — tempo: 18.199300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 1 — tempo: 18.419400s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 18.378900s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 18.358100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 18.794400s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 20.143000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 19.097800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 19.507600s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 18.589200s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 19.118800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 18.859200s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 19.246800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 20.054900s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 19.196300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 19.666100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 19.442100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 18.945900s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 19.645200s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 18.439700s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+./run_benchmarks.sh: line 268: unexpected EOF while looking for matching `"'
+[0;36m[INFO][0m   Run 10 — tempo: 18.919400s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 20.012800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 20.622100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 19.144800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 18.691700s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 18.395300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 18.953200s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 18.775800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 18.841300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 18.868300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 18.730700s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+
+====================================
+ Execução finalizada!
+====================================
+  Resultados em: /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results
+  JSON:          /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260315_050002.json
+
+  Para gerar relatório com gráficos, execute:
+  ./report.sh /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260315_050002.json
+====================================

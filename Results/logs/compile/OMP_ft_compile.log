@@ -1,0 +1,27 @@
+rm -f core *~ */core */*~
+rm -f */*.o */*.obj */*.exe */*.mod */npbparams.h */blk_par.h
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -rf */rii_files
+   ============================================
+   =      NAS PARALLEL BENCHMARKS 3.4         =
+   =      OpenMP Versions                     =
+   =      Fortran/C                           =
+   ============================================
+
+cd FT; make CLASS=C
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/OMP/FT'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/OMP/sys'
+gcc  -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/OMP/sys'
+../sys/setparams ft C
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/OMP/FT'
+sed -e 's/=0/=32/' blk_par0.h > blk_par.h_wk
+gfortran -c  -O3 -fopenmp ft_data.f90
+gfortran -c  -O3 -fopenmp ft.f90
+cd ../common; gfortran -c  -O3 -fopenmp randi8.f90
+cd ../common; gfortran -c  -O3 -fopenmp print_results.f90
+cd ../common; gfortran -c  -O3 -fopenmp timers.f90
+cd ../common; gcc -c  -O3 -fopenmp  -o wtime.o ../common/wtime.c
+gfortran -O3 -fopenmp -o ../bin/ft.C.x ft.o ft_data.o ../common/randi8.o ../common/print_results.o ../common/timers.o ../common/wtime.o 
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/OMP/FT'
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/OMP/FT'

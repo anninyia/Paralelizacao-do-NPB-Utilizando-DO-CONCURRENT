@@ -1,0 +1,22 @@
+rm -f core 
+rm -f *~ */core */*~ */*.o */npbparams.h */*.obj */*.exe
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -f {DC/,}ADC.{logf,view,dat,viewsz,groupby,chunks}.* 
+   ===========================================
+   =      NAS PARALLEL BENCHMARKS 3.3        =
+   =      Serial Versions                    =
+   =      F77/C                              =
+   ===========================================
+
+cd IS; make CLASS=C
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/IS'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+cc  -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+../sys/setparams is C
+f77 -O -mcmodel=medium -cpp -DCLASS_C -c -o is.o is.f90
+cd ../common; gfortran -c  -O -mcmodel=medium print_results.f
+cd ../common; gfortran -c  -O -mcmodel=medium timers.f
+cd ../common; cc  -c  -O -mcmodel=medium  -o wtime.o ../common/wtime.c
+gfortran -O -o ../bin/is.C.x is.o ../common/print_results.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/IS'

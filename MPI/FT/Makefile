@@ -7,6 +7,9 @@ include ../config/make.def
 
 include ../sys/make.common
 
+.SUFFIXES:
+.SUFFIXES: .f90 .f .o
+
 OBJS = ft.o ft_data.o mpinpb.o ${COMMON}/get_active_nprocs.o \
 	${COMMON}/${RAND}.o ${COMMON}/print_results.o ${COMMON}/timers.o
 
@@ -26,3 +29,7 @@ mpinpb.f90:     mpinpb_$(F08).f90
 clean:
 	- rm -f *.o *.mod *~ mputil*
 	- rm -f ft npbparams.h core mpinpb.f90
+
+# Desativa regra implícita %: %.o
+%: %.o
+	@true

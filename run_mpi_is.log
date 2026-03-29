@@ -1,0 +1,207 @@
+nohup: ignoring input
+====================================
+ NAS Parallel Benchmarks Runner
+====================================
+
+
+Implementação:
+  1 - SERIAL
+  2 - OMP
+  3 - MPI
+  4 - DO_CONCURRENT
+  5 - TODAS
+
+Benchmarks:
+  1 - CG
+  2 - FT
+  3 - MG
+  4 - IS
+  5 - TODOS
+
+====================================
+ Configuração selecionada
+====================================
+  Classe:          C
+  Threads:         8
+  Repetições:      20
+  Implementações:  MPI
+  Benchmarks:      is
+
+
+====================================
+ Implementação: MPI
+====================================
+[0;36m[INFO][0m Compilando MPI → is ...
+[0;32m[OK][0m Compilado: MPI is
+
+[0;36m[INFO][0m Executando MPI is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 27.19700027.19970029.27000027.16960027.70230027.46720027.95180027.258600s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 26.01030026.20530026.69090027.04520026.12870026.50610027.20020027.291200s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 26.77470027.06500029.14940029.00010027.58270027.76450027.94960028.337200s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 26.51680026.20520029.74200028.59510026.16390026.42380026.77040026.197900s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 26.67260027.11030027.60170028.69140026.33020026.93170026.76600026.506300s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 26.40900026.27170026.43700026.53180024.78610024.70530030.72300030.693500s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 25.38680025.08680025.36190026.19390025.49070027.68960028.00220029.462000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 24.91410027.39730027.82690029.20020026.74510028.13560031.96310031.393600s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 25.19940025.52790026.35540027.14010024.44450026.35520032.17460032.232800s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 26.17810026.11010029.49320026.26770026.25100026.17990036.69400037.775500s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 26.38250027.84720026.90410027.82430027.75160028.75450029.65620029.484800s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 26.72500027.93050030.73970031.94530025.28140027.10770027.77770027.299700s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 25.95690026.11800030.22020029.61200028.72280029.12560032.51440039.653600s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 25.90610027.14080025.61790026.91420024.67220026.18590026.74050026.797700s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 27.55440027.92060027.41810027.85990025.47170025.63000026.75810026.592400s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 25.12920026.66300028.11030032.50190025.12700027.01860026.96640030.256500s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 24.94150025.42010027.17730027.10040026.84310027.94900027.01430026.679200s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 25.41620028.36890028.75030028.18420026.90200028.43020027.25600030.314700s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 26.93140028.54570029.91910031.45590025.97750027.18290027.30800027.555200s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 26.21540028.51740029.66050032.90510027.24260027.20930027.97140028.190900s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+
+====================================
+ Execução finalizada!
+====================================
+  Resultados em: /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results
+  JSON:          /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260314_190801.json
+
+  Para gerar relatório com gráficos, execute:
+  ./report.sh /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260314_190801.json
+====================================

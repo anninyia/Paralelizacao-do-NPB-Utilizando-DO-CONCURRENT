@@ -1,0 +1,67 @@
+nohup: ignoring input
+====================================
+ NAS Parallel Benchmarks Runner
+====================================
+
+
+Implementação:
+  1 - SERIAL
+  2 - OMP
+  3 - MPI
+  4 - DO_CONCURRENT
+  5 - TODAS
+
+Benchmarks:
+  1 - CG
+  2 - FT
+  3 - MG
+  4 - IS
+  5 - TODOS
+
+====================================
+ Configuração selecionada
+====================================
+  Classe:          C
+  Threads:         8
+  Repetições:      20
+  Implementações:  OMP
+  Benchmarks:      is
+
+
+====================================  
+ Implementação: OMP
+====================================
+[0;36m[INFO][0m Compilando OMP → is ...
+[0;32m[OK][0m Compilado: OMP is
+
+[0;36m[INFO][0m Executando OMP is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 26.700500s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 28.930900s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 31.435600s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 27.288900s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 27.665200s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 27.699100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 20.516000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 27.102800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 27.308400s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 35.533000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 29.434300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 34.795000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 35.807100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 28.689900s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 30.560100s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 38.977700s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 29.268800s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 32.805300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 29.879300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 31.171300s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+
+====================================
+ Execução finalizada!
+====================================
+  Resultados em: /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results
+  JSON:          /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260315_003656.json
+
+  Para gerar relatório com gráficos, execute:
+  ./report.sh /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260315_003656.json
+====================================

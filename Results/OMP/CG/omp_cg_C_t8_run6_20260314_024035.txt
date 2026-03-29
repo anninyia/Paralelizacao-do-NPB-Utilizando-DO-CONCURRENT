@@ -1,0 +1,63 @@
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:     8
+
+ Initialization time =           4.562 seconds
+
+   iteration           ||r||                 zeta
+        1       0.35331322804374E-12   109.9994423237398
+        5       0.89268773315096E-15    28.6471670038896
+       10       0.91203992341218E-15    28.9496695449001
+       15       0.90799202385210E-15    28.9716336228370
+       20       0.91376877166040E-15    28.9734210663752
+       25       0.90892742597119E-15    28.9735863059386
+       30       0.90885633825629E-15    28.9736033967633
+       35       0.91024299367185E-15    28.9736053266247
+       40       0.90637440276170E-15    28.9736055590700
+       45       0.90695874884107E-15    28.9736055884131
+       50       0.91051481488182E-15    28.9736055922483
+       55       0.90364506087042E-15    28.9736055927634
+       60       0.90839966247296E-15    28.9736055928341
+       65       0.90581541831181E-15    28.9736055928440
+       70       0.90265849649430E-15    28.9736055928452
+       75       0.90238411784339E-15    28.9736055928456
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.2170355771333E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    92.36
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                  1552.12
+ Mop/s/thread    =                   194.01
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              14 Mar 2026
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

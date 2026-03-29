@@ -1,0 +1,27 @@
+rm -f core 
+rm -f *~ */core */*~ */*.o */npbparams.h */*.obj */*.exe
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -f {DC/,}ADC.{logf,view,dat,viewsz,groupby,chunks}.* 
+   ===========================================
+   =      NAS PARALLEL BENCHMARKS 3.3        =
+   =      Serial Versions                    =
+   =      F77/C                              =
+   ===========================================
+
+cd FT; make CLASS=C
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/FT'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+cc  -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+../sys/setparams ft C
+f77 -c  -O -mcmodel=medium appft.f
+f77 -c  -O -mcmodel=medium auxfnct.f
+f77 -c  -O -mcmodel=medium fft3d.f
+f77 -c  -O -mcmodel=medium mainft.f
+f77 -c  -O -mcmodel=medium verify.f
+cd ../common; f77 -c  -O -mcmodel=medium randi8.f
+cd ../common; f77 -c  -O -mcmodel=medium print_results.f
+cd ../common; f77 -c  -O -mcmodel=medium timers.f
+cd ../common; cc  -c  -O -mcmodel=medium  -o wtime.o ../common/wtime.c
+f77 -O -o ../bin/ft.C.x appft.o auxfnct.o fft3d.o mainft.o verify.o ../common/randi8.o ../common/print_results.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/FT'

@@ -8,6 +8,7 @@ OBJS = cg.o cg_data.o ${COMMON}/print_results.o  \
        ${COMMON}/${RAND}.o ${COMMON}/timers.o ${COMMON}/wtime.o
 
 include ../sys/make.common
+.SUFFIXES:
 .SUFFIXES: .c .f .f90 .h .o
 
 ${PROGRAM}: config ${OBJS}
@@ -23,3 +24,7 @@ clean:
 	- rm -f *.o *~ *.mod
 	- rm -f npbparams.h core
 	- if [ -d rii_files ]; then rm -r rii_files; fi
+
+# Desativa regra implícita %: %.o
+%: %.o
+	@true

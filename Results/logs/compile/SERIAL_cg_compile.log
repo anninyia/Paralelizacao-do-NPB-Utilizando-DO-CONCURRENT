@@ -1,0 +1,23 @@
+rm -f core 
+rm -f *~ */core */*~ */*.o */npbparams.h */*.obj */*.exe
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -f {DC/,}ADC.{logf,view,dat,viewsz,groupby,chunks}.* 
+   ===========================================
+   =      NAS PARALLEL BENCHMARKS 3.3        =
+   =      Serial Versions                    =
+   =      F77/C                              =
+   ===========================================
+
+cd CG; make CLASS=C
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/CG'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+cc  -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+../sys/setparams cg C
+f77 -c  -O -mcmodel=medium cg.f
+cd ../common; f77 -c  -O -mcmodel=medium print_results.f
+cd ../common; f77 -c  -O -mcmodel=medium randi8.f
+cd ../common; f77 -c  -O -mcmodel=medium timers.f
+cd ../common; cc  -c  -O -mcmodel=medium  -o wtime.o ../common/wtime.c
+f77 -O -o ../bin/cg.C.x cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/CG'

@@ -1,0 +1,67 @@
+========================================================================
+ NPB Benchmarks — Relatório Comparativo
+ Gerado em: 15/03/2026 20:31:18
+ Fonte: rebuilt_results.json
+ Benchmarks: CG FT IS MG
+ Implementações: DO_CONCURRENT MPI OMP SERIAL
+========================================================================
+
+  Benchmark: CG
+  Implementação         Threads   Runs    Média (s)   Desvio (s)    Min (s)    Max (s)
+  --------------------------------------------------------------------------------
+  DO_CONCURRENT               8     20     108.1575      12.7790    77.4700   119.0300
+  MPI                         4     20     120.0770       7.1206   110.2400   134.2300
+  OMP                         8     20      91.8305       1.6522    89.5700    96.6600
+  SERIAL                      8     20     405.7205      10.0706   383.4400   421.5900
+
+  Speedup relativo ao SERIAL:
+    DO_CONCURRENT        3.75x
+    MPI                  3.38x
+    OMP                  4.42x
+    SERIAL               1.00x
+
+
+  Benchmark: FT
+  Implementação         Threads   Runs    Média (s)   Desvio (s)    Min (s)    Max (s)
+  --------------------------------------------------------------------------------
+  DO_CONCURRENT               8     20     316.1130      10.1397   303.1300   342.6800
+  MPI                         4     19     111.2289       4.9512   104.0500   126.3900
+  OMP                         8     20      68.8775       3.2870    63.6600    74.6100
+  SERIAL                      8     20     418.4055       8.6311   398.6400   433.9500
+
+  Speedup relativo ao SERIAL:
+    DO_CONCURRENT        1.32x
+    MPI                  3.76x
+    OMP                  6.07x
+    SERIAL               1.00x
+
+
+  Benchmark: IS
+  Implementação         Threads   Runs    Média (s)   Desvio (s)    Min (s)    Max (s)
+  --------------------------------------------------------------------------------
+  DO_CONCURRENT               8     20      23.6791       3.5244    19.4551    30.0552
+  MPI                         4     20      19.1516       0.6022    18.3581    20.6221
+  OMP                         8     20      30.0785       4.0892    20.5160    38.9777
+  SERIAL                      8     20      22.2000       0.9199    20.8647    25.3254
+
+  Speedup relativo ao SERIAL:
+    DO_CONCURRENT        0.94x
+    MPI                  1.16x
+    OMP                  0.74x
+    SERIAL               1.00x
+
+
+  Benchmark: MG
+  Implementação         Threads   Runs    Média (s)   Desvio (s)    Min (s)    Max (s)
+  --------------------------------------------------------------------------------
+  DO_CONCURRENT               8     20      23.6575       2.9493    18.6500    31.0500
+  MPI                         4     20      23.7065       1.5022    20.7300    26.1700
+  OMP                         8     20      21.7265       1.7386    18.2800    24.5500
+  SERIAL                      8     20     107.3025       4.4292   100.3700   113.3500
+
+  Speedup relativo ao SERIAL:
+    DO_CONCURRENT        4.54x
+    MPI                  4.53x
+    OMP                  4.94x
+    SERIAL               1.00x
+

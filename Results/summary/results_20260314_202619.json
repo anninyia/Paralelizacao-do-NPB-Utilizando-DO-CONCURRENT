@@ -1,0 +1,222 @@
+[
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 1,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run1_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 2,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run2_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 3,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run3_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 4,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run4_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 5,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run5_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 6,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run6_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 7,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run7_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 8,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run8_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 9,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run9_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 10,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run10_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 11,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run11_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 12,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run12_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 13,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run13_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 14,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run14_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 15,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run15_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 16,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run16_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 17,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run17_20260314_202620.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 18,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run18_20260314_202621.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 19,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run19_20260314_202621.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 20,
+        "time_seconds": 0.000000,
+        "mops": null,
+        "verified": "UNKNOWN",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run20_20260314_202621.txt"
+    }
+]

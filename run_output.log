@@ -1,0 +1,1000 @@
+nohup: ignoring input
+====================================
+ NAS Parallel Benchmarks Runner
+====================================
+
+
+Implementação:
+  1 - SERIAL
+  2 - OMP
+  3 - MPI
+  4 - DO_CONCURRENT
+  5 - TODAS
+
+Benchmarks:
+  1 - CG
+  2 - FT
+  3 - MG
+  4 - IS
+  5 - TODOS
+
+====================================
+ Configuração selecionada
+====================================
+  Classe:          C
+  Threads:         8
+  Repetições:      20
+  Implementações:  SERIAL OMP MPI DO_CONCURRENT
+  Benchmarks:      cg ft mg is
+
+
+====================================
+ Implementação: SERIAL
+====================================
+[0;36m[INFO][0m Compilando SERIAL → cg ...
+[0;32m[OK][0m Compilado: SERIAL cg
+
+[0;36m[INFO][0m Executando SERIAL cg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 396.050000s | Mop/s: 361.95 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 383.440000s | Mop/s: 373.85 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 407.410000s | Mop/s: 351.85 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 393.160000s | Mop/s: 364.60 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 415.760000s | Mop/s: 344.79 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 412.620000s | Mop/s: 347.41 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 403.530000s | Mop/s: 355.24 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 405.640000s | Mop/s: 353.39 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 416.100000s | Mop/s: 344.50 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 392.900000s | Mop/s: 364.84 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 395.850000s | Mop/s: 362.13 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 411.720000s | Mop/s: 348.17 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 421.590000s | Mop/s: 340.02 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 398.010000s | Mop/s: 360.16 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 407.980000s | Mop/s: 351.36 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 412.370000s | Mop/s: 347.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 419.100000s | Mop/s: 342.04 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 405.700000s | Mop/s: 353.34 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 401.830000s | Mop/s: 356.73 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 413.650000s | Mop/s: 346.55 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando SERIAL → ft ...
+[0;32m[OK][0m Compilado: SERIAL ft
+
+[0;36m[INFO][0m Executando SERIAL ft (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 409.230000s | Mop/s: 968.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 415.160000s | Mop/s: 954.78 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 411.860000s | Mop/s: 962.42 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 420.840000s | Mop/s: 941.89 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 402.370000s | Mop/s: 985.13 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 398.640000s | Mop/s: 994.35 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 420.320000s | Mop/s: 943.05 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 425.680000s | Mop/s: 931.18 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 413.360000s | Mop/s: 958.93 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 417.690000s | Mop/s: 949.00 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 419.340000s | Mop/s: 945.27 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 433.950000s | Mop/s: 913.44 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 429.340000s | Mop/s: 923.25 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 426.620000s | Mop/s: 929.13 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 416.590000s | Mop/s: 951.50 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 424.230000s | Mop/s: 934.37 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 418.190000s | Mop/s: 947.87 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 418.780000s | Mop/s: 946.54 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 427.030000s | Mop/s: 928.23 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 418.890000s | Mop/s: 946.28 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando SERIAL → mg ...
+[0;32m[OK][0m Compilado: SERIAL mg
+
+[0;36m[INFO][0m Executando SERIAL mg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 111.560000s | Mop/s: 1395.58 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 103.040000s | Mop/s: 1510.96 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 111.240000s | Mop/s: 1399.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 104.850000s | Mop/s: 1484.97 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 104.960000s | Mop/s: 1483.41 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 112.160000s | Mop/s: 1388.15 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 100.730000s | Mop/s: 1545.72 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 113.350000s | Mop/s: 1373.58 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 103.670000s | Mop/s: 1501.74 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 104.020000s | Mop/s: 1496.70 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 109.780000s | Mop/s: 1418.24 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 100.370000s | Mop/s: 1551.16 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 110.890000s | Mop/s: 1404.00 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 100.520000s | Mop/s: 1548.88 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 110.550000s | Mop/s: 1408.38 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 113.350000s | Mop/s: 1373.50 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 105.350000s | Mop/s: 1477.82 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 109.870000s | Mop/s: 1417.03 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 105.570000s | Mop/s: 1474.76 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 110.220000s | Mop/s: 1412.59 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando SERIAL → is ...
+[0;32m[OK][0m Compilado: SERIAL is
+
+[0;36m[INFO][0m Executando SERIAL is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+
+====================================
+ Implementação: OMP
+====================================
+[0;36m[INFO][0m Compilando OMP → cg ...
+[0;32m[OK][0m Compilado: OMP cg
+
+[0;36m[INFO][0m Executando OMP cg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 91.230000s | Mop/s: 1571.20 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 91.060000s | Mop/s: 1574.17 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 91.860000s | Mop/s: 1560.50 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 96.660000s | Mop/s: 1483.07 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 90.770000s | Mop/s: 1579.31 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 92.360000s | Mop/s: 1552.12 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 93.530000s | Mop/s: 1532.63 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 92.020000s | Mop/s: 1557.82 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 92.000000s | Mop/s: 1558.16 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 92.710000s | Mop/s: 1546.13 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 89.570000s | Mop/s: 1600.36 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 90.110000s | Mop/s: 1590.79 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 92.080000s | Mop/s: 1556.75 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 91.710000s | Mop/s: 1563.12 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 90.340000s | Mop/s: 1586.84 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 89.690000s | Mop/s: 1598.26 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 91.200000s | Mop/s: 1571.80 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 94.370000s | Mop/s: 1519.00 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 91.120000s | Mop/s: 1573.25 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 92.220000s | Mop/s: 1554.34 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando OMP → ft ...
+[0;32m[OK][0m Compilado: OMP ft
+
+[0;36m[INFO][0m Executando OMP ft (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 65.570000s | Mop/s: 6045.61 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 65.820000s | Mop/s: 6022.15 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 65.700000s | Mop/s: 6033.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 67.250000s | Mop/s: 5894.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 64.090000s | Mop/s: 6184.69 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 69.760000s | Mop/s: 5682.49 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 70.170000s | Mop/s: 5649.29 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 70.700000s | Mop/s: 5606.78 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 69.890000s | Mop/s: 5671.69 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 70.550000s | Mop/s: 5618.78 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 70.640000s | Mop/s: 5611.74 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 63.660000s | Mop/s: 6226.52 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 74.610000s | Mop/s: 5312.77 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 68.150000s | Mop/s: 5816.33 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 66.980000s | Mop/s: 5918.20 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 74.410000s | Mop/s: 5326.88 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 73.520000s | Mop/s: 5391.77 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 72.320000s | Mop/s: 5481.19 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 67.340000s | Mop/s: 5886.02 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 66.420000s | Mop/s: 5968.02 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando OMP → mg ...
+[0;32m[OK][0m Compilado: OMP mg
+
+[0;36m[INFO][0m Executando OMP mg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 24.120000s | Mop/s: 6454.55 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 21.860000s | Mop/s: 7121.64 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 23.670000s | Mop/s: 6576.91 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 19.590000s | Mop/s: 7949.30 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 20.920000s | Mop/s: 7444.02 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 21.660000s | Mop/s: 7187.38 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 22.330000s | Mop/s: 6972.26 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 21.410000s | Mop/s: 7272.71 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 20.670000s | Mop/s: 7530.60 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 20.200000s | Mop/s: 7706.00 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 21.910000s | Mop/s: 7106.88 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 22.630000s | Mop/s: 6880.75 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 18.280000s | Mop/s: 8515.88 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 24.320000s | Mop/s: 6402.14 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 19.750000s | Mop/s: 7883.91 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 24.550000s | Mop/s: 6341.14 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 22.810000s | Mop/s: 6824.59 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 21.300000s | Mop/s: 7309.07 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 22.960000s | Mop/s: 6781.90 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 19.590000s | Mop/s: 7949.32 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando OMP → is ...
+[0;32m[OK][0m Compilado: OMP is
+
+[0;36m[INFO][0m Executando OMP is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 0.040494s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 2 — tempo: 0.032877s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 3 — tempo: 0.036350s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 4 — tempo: 0.036006s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 5 — tempo: 0.024822s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 6 — tempo: 0.023248s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 7 — tempo: 0.052583s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 8 — tempo: 0.072598s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 9 — tempo: 0.030150s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 10 — tempo: 0.043430s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 11 — tempo: 0.026165s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 12 — tempo: 0.037655s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 13 — tempo: 0.037577s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 14 — tempo: 0.036518s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 15 — tempo: 0.026740s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 16 — tempo: 0.024587s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 17 — tempo: 0.041952s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 18 — tempo: 0.026768s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 19 — tempo: 0.052149s | Mop/s: N/A | Verificação: UNKNOWN
+[0;36m[INFO][0m   Run 20 — tempo: 0.039411s | Mop/s: N/A | Verificação: UNKNOWN
+
+====================================
+ Implementação: MPI
+====================================
+[0;36m[INFO][0m Compilando MPI → cg ...
+[0;32m[OK][0m Compilado: MPI cg
+
+[0;36m[INFO][0m Executando MPI cg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 473.920000476.810000485.730000522.890000486.710000517.530000517.900000517.650000s | Mop/s: 302.47
+300.64
+295.12
+274.14
+294.52
+276.98
+276.79
+276.92 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 498.430000504.340000565.820000573.360000573.140000576.410000576.490000582.260000s | Mop/s: 287.60
+284.23
+253.34
+250.01
+250.11
+248.69
+248.66
+246.19 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 465.330000465.530000466.810000549.240000576.560000543.980000562.710000561.760000s | Mop/s: 308.05
+307.93
+307.08
+260.99
+248.63
+263.52
+254.75
+255.17 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 439.000000442.380000449.470000505.590000512.580000512.980000514.800000515.430000s | Mop/s: 326.53
+324.04
+318.93
+283.52
+279.66
+279.44
+278.45
+278.11 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 487.370000491.520000557.090000550.920000612.740000613.750000577.820000589.900000s | Mop/s: 294.12
+291.64
+257.31
+260.20
+233.94
+233.56
+248.08
+243.00 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 456.940000600.280000600.850000579.580000652.910000627.010000626.260000628.080000s | Mop/s: 313.71
+238.80
+238.58
+247.33
+219.55
+228.62
+228.89
+228.23 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 495.590000500.200000502.590000506.850000494.900000525.910000538.090000542.500000s | Mop/s: 289.24
+286.58
+285.22
+282.82
+289.65
+272.57
+266.40
+264.24 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 491.430000497.490000498.350000545.720000554.750000578.980000582.070000564.890000s | Mop/s: 291.69
+288.14
+287.65
+262.67
+258.40
+247.59
+246.27
+253.76 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 484.190000486.340000494.700000538.220000541.360000548.290000554.730000559.150000s | Mop/s: 296.06
+294.75
+289.76
+266.34
+264.79
+261.44
+258.41
+256.36 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 463.460000464.620000566.230000571.970000573.830000548.370000550.910000562.880000s | Mop/s: 309.30
+308.52
+253.16
+250.62
+249.81
+261.41
+260.20
+254.67 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 506.110000529.890000532.590000559.510000529.960000536.930000539.370000549.070000s | Mop/s: 283.23
+270.52
+269.15
+256.20
+270.49
+266.98
+265.77
+261.07 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 488.680000493.180000544.770000509.000000575.340000586.700000585.930000561.670000s | Mop/s: 293.34
+290.66
+263.14
+281.62
+249.15
+244.33
+244.65
+255.22 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 460.270000633.990000625.490000672.160000677.070000634.900000637.960000645.540000s | Mop/s: 311.44
+226.10
+229.18
+213.26
+211.72
+225.78
+224.70
+222.06 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 695.690000700.240000706.340000708.180000688.520000690.880000701.070000709.340000s | Mop/s: 206.05
+204.71
+202.94
+202.42
+208.20
+207.49
+204.47
+202.09 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 551.710000562.050000556.780000564.230000529.090000527.210000529.400000538.980000s | Mop/s: 259.82
+255.04
+257.46
+254.06
+270.93
+271.90
+270.78
+265.96 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 467.690000468.430000555.310000570.620000595.160000608.110000586.640000597.780000s | Mop/s: 306.50
+306.01
+258.14
+251.21
+240.86
+235.73
+244.35
+239.80 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 482.220000487.120000474.870000544.100000548.740000549.850000576.510000580.340000s | Mop/s: 297.27
+294.27
+301.86
+263.46
+261.23
+260.70
+248.65
+247.01 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 472.440000474.990000485.220000577.810000578.750000582.610000553.940000557.880000s | Mop/s: 303.42
+301.79
+295.43
+248.09
+247.69
+246.05
+258.78
+256.95 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 479.960000489.660000498.700000532.480000511.580000523.450000524.060000546.600000s | Mop/s: 298.66
+292.75
+287.45
+269.21
+280.20
+273.85
+273.53
+262.25 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 474.510000470.460000470.050000582.580000587.140000598.570000577.810000599.280000s | Mop/s: 302.10
+304.70
+304.96
+246.05
+244.15
+239.48
+248.09
+239.20 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → ft ...
+[0;32m[OK][0m Compilado: MPI ft
+
+[0;36m[INFO][0m Executando MPI ft (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 469.290000481.010000489.060000514.070000494.030000504.540000517.400000528.630000s | Mop/s: 844.66
+824.08
+810.52
+771.08
+802.36
+785.65
+766.12
+749.85 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 488.180000493.320000494.500000495.380000476.400000498.540000506.420000525.590000s | Mop/s: 811.97
+803.51
+801.60
+800.18
+832.05
+795.09
+782.72
+754.18 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 494.540000461.950000466.310000508.750000512.830000513.080000477.850000512.950000s | Mop/s: 801.53
+858.07
+850.06
+779.14
+772.94
+772.57
+829.53
+772.76 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 480.060000487.330000489.150000502.130000483.390000499.840000507.470000509.620000s | Mop/s: 825.71
+813.39
+810.36
+789.42
+820.02
+793.03
+781.10
+777.81 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 469.290000478.110000453.690000477.380000534.210000544.680000511.700000523.300000s | Mop/s: 844.66
+829.08
+873.70
+830.34
+742.00
+727.75
+774.65
+757.48 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 456.410000441.730000444.060000453.530000544.950000552.290000554.810000536.200000s | Mop/s: 868.50
+897.36
+892.65
+874.01
+727.38
+717.72
+714.46
+739.26 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 436.140000468.500000438.240000522.770000524.310000509.160000519.440000539.110000s | Mop/s: 908.86
+846.08
+904.51
+758.25
+756.02
+778.52
+763.11
+735.26 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 462.400000472.880000477.910000456.140000502.860000467.600000486.840000497.220000s | Mop/s: 857.24
+838.25
+829.41
+869.01
+788.26
+847.71
+814.21
+797.20 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 475.820000517.620000528.240000525.140000530.430000523.270000525.200000528.050000s | Mop/s: 833.06
+765.79
+750.39
+754.82
+747.30
+757.53
+754.74
+750.67 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 487.170000488.240000489.980000500.890000493.340000495.010000504.470000503.840000s | Mop/s: 813.66
+811.86
+808.99
+791.37
+803.47
+800.77
+785.76
+786.73 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 516.380000514.380000485.640000531.190000537.090000505.770000513.030000533.240000s | Mop/s: 767.63
+770.61
+816.22
+746.23
+738.03
+783.73
+772.65
+743.35 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 504.690000499.090000506.090000513.000000486.430000503.910000504.800000509.730000s | Mop/s: 785.41
+794.22
+783.24
+772.69
+814.89
+786.63
+785.23
+777.64 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 489.750000501.150000504.470000503.000000482.540000480.690000487.380000491.520000s | Mop/s: 809.36
+790.96
+785.75
+788.04
+821.45
+824.62
+813.30
+806.46 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 508.260000511.570000512.830000524.180000490.320000488.890000502.350000539.550000s | Mop/s: 779.90
+774.84
+772.95
+756.20
+808.42
+810.79
+789.06
+734.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 506.370000514.040000512.780000519.000000513.920000519.750000526.610000534.320000s | Mop/s: 782.81
+771.13
+773.02
+763.76
+771.31
+762.65
+752.72
+741.85 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 487.750000495.430000494.340000495.420000475.360000482.220000485.290000499.970000s | Mop/s: 812.69
+800.08
+801.85
+800.11
+833.87
+822.01
+816.81
+792.83 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 498.590000500.160000501.010000513.300000509.790000507.240000505.350000505.490000s | Mop/s: 795.02
+792.52
+791.18
+772.24
+777.56
+781.46
+784.38
+784.16 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 479.620000455.460000521.870000531.990000534.080000523.120000550.670000559.060000s | Mop/s: 826.46
+870.31
+759.55
+745.11
+742.19
+757.74
+719.82
+709.03 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 434.860000435.980000434.350000435.760000434.910000521.470000528.680000541.630000s | Mop/s: 911.52
+909.18
+912.60
+909.65
+911.43
+760.13
+749.77
+731.84 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 463.100000489.340000490.460000476.020000515.890000495.130000503.930000506.090000s | Mop/s: 855.94
+810.05
+808.19
+832.72
+768.36
+800.58
+786.59
+783.24 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → mg ...
+[0;32m[OK][0m Compilado: MPI mg
+
+[0;36m[INFO][0m Executando MPI mg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 104.500000113.230000117.780000121.610000106.170000113.850000120.340000120.040000s | Mop/s: 1489.88
+1375.07
+1321.89
+1280.24
+1466.49
+1367.52
+1293.77
+1297.00 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 96.390000106.130000115.150000122.97000099.990000101.830000107.560000116.030000s | Mop/s: 1615.19
+1467.02
+1352.10
+1266.09
+1557.09
+1528.92
+1447.49
+1341.84 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 100.80000094.730000117.800000123.570000118.630000122.770000125.980000131.760000s | Mop/s: 1544.50
+1643.62
+1321.66
+1259.91
+1312.40
+1268.11
+1235.81
+1181.64 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 110.610000113.070000112.470000118.250000106.630000110.870000114.590000120.130000s | Mop/s: 1407.57
+1376.91
+1384.30
+1316.68
+1460.11
+1404.34
+1358.68
+1296.03 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 100.970000102.160000103.310000109.410000100.690000102.28000098.35000099.690000s | Mop/s: 1541.97
+1524.08
+1507.04
+1422.99
+1546.33
+1522.16
+1583.08
+1561.81 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 95.900000105.040000108.660000111.91000096.080000100.500000109.500000118.200000s | Mop/s: 1623.43
+1482.16
+1432.85
+1391.18
+1620.45
+1549.13
+1421.80
+1317.15 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 98.38000098.790000110.540000114.720000110.780000116.070000116.770000116.790000s | Mop/s: 1582.53
+1575.95
+1408.45
+1357.13
+1405.39
+1341.36
+1333.34
+1333.15 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 98.770000101.910000103.770000113.98000098.910000106.080000107.100000113.320000s | Mop/s: 1576.32
+1527.72
+1500.30
+1365.91
+1574.07
+1467.69
+1453.77
+1373.86 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 102.490000103.970000111.680000117.810000102.410000107.320000109.220000110.380000s | Mop/s: 1519.16
+1497.43
+1394.16
+1321.54
+1520.25
+1450.78
+1425.53
+1410.53 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 98.860000111.090000110.570000112.65000096.580000102.520000105.310000113.360000s | Mop/s: 1574.85
+1401.52
+1408.05
+1382.07
+1612.00
+1518.58
+1478.39
+1373.44 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 108.240000119.980000119.580000121.18000099.180000106.820000106.430000108.650000s | Mop/s: 1438.39
+1297.67
+1301.98
+1284.80
+1569.76
+1457.46
+1462.92
+1432.95 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 97.740000109.550000119.090000122.060000117.010000118.670000117.140000117.610000s | Mop/s: 1592.99
+1421.20
+1307.38
+1275.55
+1330.58
+1312.01
+1329.17
+1323.77 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 108.000000125.630000127.540000129.040000120.280000124.890000128.140000129.610000s | Mop/s: 1441.56
+1239.33
+1220.75
+1206.56
+1294.44
+1246.65
+1215.02
+1201.23 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 115.880000114.710000120.630000122.72000091.87000091.270000108.670000111.780000s | Mop/s: 1343.55
+1357.29
+1290.66
+1268.68
+1694.75
+1705.83
+1432.71
+1392.79 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 104.03000099.360000106.790000114.470000102.680000106.310000102.730000113.120000s | Mop/s: 1496.66
+1566.90
+1457.92
+1360.17
+1516.35
+1464.46
+1515.58
+1376.30 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 113.860000111.650000126.330000131.560000106.860000110.930000112.710000113.890000s | Mop/s: 1367.37
+1394.51
+1232.43
+1183.43
+1456.97
+1403.49
+1381.38
+1367.09 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 85.97000087.580000100.260000112.730000104.350000108.590000110.500000109.430000s | Mop/s: 1811.04
+1777.63
+1552.93
+1381.17
+1491.95
+1433.81
+1409.02
+1422.79 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 94.97000099.430000103.090000105.77000098.970000102.330000102.580000102.840000s | Mop/s: 1639.45
+1565.82
+1510.23
+1471.95
+1573.06
+1521.41
+1517.74
+1513.87 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 132.830000146.260000146.260000145.590000131.860000138.540000139.580000138.760000s | Mop/s: 1172.15
+1064.50
+1064.48
+1069.36
+1180.77
+1123.85
+1115.47
+1122.06 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 105.650000109.030000115.150000118.470000100.780000106.940000109.970000116.230000s | Mop/s: 1473.66
+1427.98
+1352.05
+1314.15
+1544.95
+1455.91
+1415.80
+1339.57 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando MPI → is ...
+[0;32m[OK][0m Compilado: MPI is
+
+[0;36m[INFO][0m Executando MPI is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 0.0000000.0000000.0000000.0000000.0000000.0000000.0000000.000000s | Mop/s: Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s
+Mkeys/s | Verificação: SUCCESSFUL
+
+====================================
+ Implementação: DO_CONCURRENT
+====================================
+[0;36m[INFO][0m Compilando DO_CONCURRENT → cg ...
+[0;32m[OK][0m Compilado: DO_CONCURRENT cg
+
+[0;36m[INFO][0m Executando DO_CONCURRENT cg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 118.640000s | Mop/s: 1208.23 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 116.030000s | Mop/s: 1235.48 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 115.030000s | Mop/s: 1246.16 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 117.680000s | Mop/s: 1218.11 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 118.400000s | Mop/s: 1210.67 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 109.100000s | Mop/s: 1313.89 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 103.300000s | Mop/s: 1387.74 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 117.820000s | Mop/s: 1216.63 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 117.310000s | Mop/s: 1221.96 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 119.030000s | Mop/s: 1204.30 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 115.900000s | Mop/s: 1236.81 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 112.670000s | Mop/s: 1272.27 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 114.220000s | Mop/s: 1255.05 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 114.100000s | Mop/s: 1256.37 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 107.470000s | Mop/s: 1333.81 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 95.140000s | Mop/s: 1506.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 99.140000s | Mop/s: 1445.89 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 96.210000s | Mop/s: 1489.92 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 77.470000s | Mop/s: 1850.29 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 78.490000s | Mop/s: 1826.28 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando DO_CONCURRENT → ft ...
+[0;32m[OK][0m Compilado: DO_CONCURRENT ft
+
+[0;36m[INFO][0m Executando DO_CONCURRENT ft (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 319.070000s | Mop/s: 1242.33 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 309.360000s | Mop/s: 1281.34 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 317.580000s | Mop/s: 1248.14 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 312.810000s | Mop/s: 1267.20 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 303.130000s | Mop/s: 1307.66 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 309.020000s | Mop/s: 1282.72 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 332.180000s | Mop/s: 1193.31 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 342.680000s | Mop/s: 1156.74 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 334.570000s | Mop/s: 1184.78 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 317.360000s | Mop/s: 1249.02 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 307.110000s | Mop/s: 1290.70 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 313.500000s | Mop/s: 1264.39 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 319.350000s | Mop/s: 1241.25 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 309.520000s | Mop/s: 1280.64 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 314.940000s | Mop/s: 1258.63 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 317.380000s | Mop/s: 1248.95 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 317.340000s | Mop/s: 1249.10 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 305.220000s | Mop/s: 1298.68 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 313.460000s | Mop/s: 1264.55 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 306.680000s | Mop/s: 1292.53 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando DO_CONCURRENT → mg ...
+[0;32m[OK][0m Compilado: DO_CONCURRENT mg
+
+[0;36m[INFO][0m Executando DO_CONCURRENT mg (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 22.690000s | Mop/s: 6860.54 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 23.090000s | Mop/s: 6743.74 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 27.050000s | Mop/s: 5756.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 26.460000s | Mop/s: 5883.62 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 21.110000s | Mop/s: 7376.86 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 21.370000s | Mop/s: 7284.75 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 26.410000s | Mop/s: 5895.06 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 21.190000s | Mop/s: 7348.95 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 22.550000s | Mop/s: 6905.20 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 31.050000s | Mop/s: 5014.47 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 25.270000s | Mop/s: 6160.49 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 23.810000s | Mop/s: 6539.83 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 19.740000s | Mop/s: 7886.44 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 25.000000s | Mop/s: 6228.86 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 24.190000s | Mop/s: 6435.49 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 25.010000s | Mop/s: 6224.82 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 19.830000s | Mop/s: 7849.84 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 18.650000s | Mop/s: 8348.76 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 24.990000s | Mop/s: 6230.32 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 23.690000s | Mop/s: 6571.53 | Verificação: SUCCESSFUL
+[0;36m[INFO][0m Compilando DO_CONCURRENT → is ...
+[0;32m[OK][0m Compilado: DO_CONCURRENT is
+
+[0;36m[INFO][0m Executando DO_CONCURRENT is (Classe C, 20 execuções) ...
+[0;36m[INFO][0m   Run 1 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 2 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 3 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 4 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 5 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 6 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 7 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 8 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 9 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 10 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 11 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 12 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 13 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 14 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 15 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 16 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 17 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 18 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 19 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+[0;36m[INFO][0m   Run 20 — tempo: 0.000000s | Mop/s: Mkeys/s | Verificação: SUCCESSFUL
+./run_benchmarks.sh: line 250: one: command not found
+
+====================================
+ Execução finalizada!
+====================================
+  Resultados em: /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results
+  JSON:          /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260313_204350.json
+
+  Para gerar relatório com gráficos, execute:
+  ./report.sh /home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/summary/results_20260313_204350.json
+====================================

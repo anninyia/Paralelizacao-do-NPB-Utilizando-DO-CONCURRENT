@@ -1,0 +1,3841 @@
+[
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 119.030000,
+    "mops": 1204.30,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run10_20260314_152103.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 115.900000,
+    "mops": 1236.81,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run11_20260314_152325.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 118.640000,
+    "mops": 1208.23,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run1_20260314_150026.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 112.670000,
+    "mops": 1272.27,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run12_20260314_152543.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 114.220000,
+    "mops": 1255.05,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run13_20260314_152758.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 114.100000,
+    "mops": 1256.37,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run14_20260314_153014.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 107.470000,
+    "mops": 1333.81,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run15_20260314_153232.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 95.140000,
+    "mops": 1506.66,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run16_20260314_153443.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 99.140000,
+    "mops": 1445.89,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run17_20260314_153641.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 96.210000,
+    "mops": 1489.92,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run18_20260314_153839.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 77.470000,
+    "mops": 1850.29,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run19_20260314_154038.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 78.490000,
+    "mops": 1826.28,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run20_20260314_154217.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 116.030000,
+    "mops": 1235.48,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run2_20260314_150248.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 115.030000,
+    "mops": 1246.16,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run3_20260314_150506.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 117.680000,
+    "mops": 1218.11,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run4_20260314_150724.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 118.400000,
+    "mops": 1210.67,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run5_20260314_150946.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 109.100000,
+    "mops": 1313.89,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run6_20260314_151207.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 103.300000,
+    "mops": 1387.74,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run7_20260314_151420.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 117.820000,
+    "mops": 1216.63,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run8_20260314_151625.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 117.310000,
+    "mops": 1221.96,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/CG/do_concurrent_cg_C_t8_run9_20260314_151843.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 317.360000,
+    "mops": 1249.02,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run10_20260314_163551.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 307.110000,
+    "mops": 1290.70,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run11_20260314_164132.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 319.070000,
+    "mops": 1242.33,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run1_20260314_154359.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 313.500000,
+    "mops": 1264.39,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run12_20260314_164704.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 319.350000,
+    "mops": 1241.25,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run13_20260314_165243.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 309.520000,
+    "mops": 1280.64,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run14_20260314_165825.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 314.940000,
+    "mops": 1258.63,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run15_20260314_170401.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 317.380000,
+    "mops": 1248.95,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run16_20260314_170941.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 317.340000,
+    "mops": 1249.10,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run17_20260314_171523.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 305.220000,
+    "mops": 1298.68,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run18_20260314_172106.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 313.460000,
+    "mops": 1264.55,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run19_20260314_172635.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 306.680000,
+    "mops": 1292.53,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run20_20260314_173213.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 309.360000,
+    "mops": 1281.34,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run2_20260314_154946.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 317.580000,
+    "mops": 1248.14,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run3_20260314_155521.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 312.810000,
+    "mops": 1267.20,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run4_20260314_160104.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 303.130000,
+    "mops": 1307.66,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run5_20260314_160641.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 309.020000,
+    "mops": 1282.72,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run6_20260314_161209.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 332.180000,
+    "mops": 1193.31,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run7_20260314_161742.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 342.680000,
+    "mops": 1156.74,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run8_20260314_162340.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 334.570000,
+    "mops": 1184.78,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/FT/do_concurrent_ft_C_t8_run9_20260314_162949.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 19.939200,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run10_20260315_012140.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 27.148400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run11_20260315_012228.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 20.490400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run1_20260315_011438.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 26.943400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run12_20260315_012325.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 22.003600,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run13_20260315_012422.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 27.801000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run14_20260315_012512.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 24.378100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run15_20260315_012608.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 24.304300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run16_20260315_012701.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 29.672000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run17_20260315_012755.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 30.055200,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run18_20260315_012854.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 28.603700,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run19_20260315_012956.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 23.597600,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run20_20260315_013057.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 23.880500,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run2_20260315_011525.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 19.809000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run3_20260315_011614.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 20.271800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run4_20260315_011700.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 21.766800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run5_20260315_011746.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 19.455100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run6_20260315_011834.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 20.793000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run7_20260315_011918.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 21.652600,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run8_20260315_012005.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 21.016500,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run9_20260315_012053.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 31.050000,
+    "mops": 5014.47,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run10_20260314_174215.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 25.270000,
+    "mops": 6160.49,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run11_20260314_174252.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 22.690000,
+    "mops": 6860.54,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run1_20260314_173748.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 23.810000,
+    "mops": 6539.83,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run12_20260314_174324.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 19.740000,
+    "mops": 7886.44,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run13_20260314_174354.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 25.000000,
+    "mops": 6228.86,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run14_20260314_174421.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 24.190000,
+    "mops": 6435.49,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run15_20260314_174453.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 25.010000,
+    "mops": 6224.82,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run16_20260314_174524.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 19.830000,
+    "mops": 7849.84,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run17_20260314_174554.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 18.650000,
+    "mops": 8348.76,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run18_20260314_174620.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 24.990000,
+    "mops": 6230.32,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run19_20260314_174646.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 23.690000,
+    "mops": 6571.53,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run20_20260314_174718.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 23.090000,
+    "mops": 6743.74,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run2_20260314_173816.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 27.050000,
+    "mops": 5756.62,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run3_20260314_173845.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 26.460000,
+    "mops": 5883.62,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run4_20260314_173917.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 21.110000,
+    "mops": 7376.86,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run5_20260314_173949.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 21.370000,
+    "mops": 7284.75,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run6_20260314_174017.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 26.410000,
+    "mops": 5895.06,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run7_20260314_174045.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 21.190000,
+    "mops": 7348.95,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run8_20260314_174117.txt"
+}
+,
+{
+    "implementation": "DO_CONCURRENT",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 22.550000,
+    "mops": 6905.20,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/DO_CONCURRENT/MG/do_concurrent_mg_C_t8_run9_20260314_174145.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 10,
+    "time_seconds": 112.950000,
+    "mops": 1269.15,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run10_20260315_053705.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 11,
+    "time_seconds": 115.020000,
+    "mops": 1246.29,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run11_20260315_054045.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 1,
+    "time_seconds": 126.440000,
+    "mops": 1133.72,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run1_20260315_050006.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 12,
+    "time_seconds": 113.220000,
+    "mops": 1266.11,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run12_20260315_054421.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 13,
+    "time_seconds": 119.460000,
+    "mops": 1199.99,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run13_20260315_054755.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 14,
+    "time_seconds": 110.240000,
+    "mops": 1300.27,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run14_20260315_055137.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 15,
+    "time_seconds": 119.790000,
+    "mops": 1196.61,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run15_20260315_055508.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 16,
+    "time_seconds": 117.820000,
+    "mops": 1216.71,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run16_20260315_055848.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 17,
+    "time_seconds": 113.790000,
+    "mops": 1259.80,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run17_20260315_060227.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 18,
+    "time_seconds": 111.400000,
+    "mops": 1286.84,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run18_20260315_060601.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 19,
+    "time_seconds": 116.720000,
+    "mops": 1228.15,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run19_20260315_060934.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 20,
+    "time_seconds": 118.670000,
+    "mops": 1207.92,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run20_20260315_061311.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 2,
+    "time_seconds": 126.120000,
+    "mops": 1136.63,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run2_20260315_050401.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 3,
+    "time_seconds": 131.680000,
+    "mops": 1088.64,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run3_20260315_050812.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 4,
+    "time_seconds": 134.230000,
+    "mops": 1067.92,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run4_20260315_051218.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 5,
+    "time_seconds": 115.120000,
+    "mops": 1245.25,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run5_20260315_051627.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 6,
+    "time_seconds": 126.770000,
+    "mops": 1130.81,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run6_20260315_052016.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 7,
+    "time_seconds": 131.390000,
+    "mops": 1091.05,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run7_20260315_052434.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 8,
+    "time_seconds": 120.610000,
+    "mops": 1188.50,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run8_20260315_052838.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 4,
+    "run": 9,
+    "time_seconds": 120.100000,
+    "mops": 1193.61,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/CG/mpi_cg_C_t4_run9_20260315_053248.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 10,
+    "time_seconds": 110.810000,
+    "mops": 3577.05,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run10_20260315_065005.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 11,
+    "time_seconds": 107.830000,
+    "mops": 3676.06,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run11_20260315_065405.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 1,
+    "time_seconds": 109.200000,
+    "mops": 3629.87,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run1_20260315_061657.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 12,
+    "time_seconds": null,
+    "mops": null,
+    "verified": "UNKNOWN",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run12_20260315_065752.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 13,
+    "time_seconds": 112.460000,
+    "mops": 3524.59,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run13_20260315_070007.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 14,
+    "time_seconds": 110.150000,
+    "mops": 3598.57,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run14_20260315_070402.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 15,
+    "time_seconds": 108.290000,
+    "mops": 3660.36,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run15_20260315_070805.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 16,
+    "time_seconds": 111.620000,
+    "mops": 3551.37,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run16_20260315_071202.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 17,
+    "time_seconds": 111.060000,
+    "mops": 3569.06,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run17_20260315_071550.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 18,
+    "time_seconds": 104.050000,
+    "mops": 3809.59,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run18_20260315_071942.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 19,
+    "time_seconds": 109.600000,
+    "mops": 3616.59,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run19_20260315_072319.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 20,
+    "time_seconds": 111.240000,
+    "mops": 3563.34,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run20_20260315_072714.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 2,
+    "time_seconds": 112.020000,
+    "mops": 3538.60,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run2_20260315_062030.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 3,
+    "time_seconds": 109.640000,
+    "mops": 3615.27,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run3_20260315_062407.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 4,
+    "time_seconds": 109.780000,
+    "mops": 3610.75,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run4_20260315_062742.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 5,
+    "time_seconds": 126.390000,
+    "mops": 3136.29,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run5_20260315_063117.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 6,
+    "time_seconds": 105.980000,
+    "mops": 3740.29,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run6_20260315_063509.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 7,
+    "time_seconds": 108.970000,
+    "mops": 3637.62,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run7_20260315_063840.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 8,
+    "time_seconds": 120.470000,
+    "mops": 3290.39,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run8_20260315_064213.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 4,
+    "run": 9,
+    "time_seconds": 113.790000,
+    "mops": 3483.48,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/FT/mpi_ft_C_t4_run9_20260315_064613.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 10,
+    "time_seconds": 18.919400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run10_20260315_084855.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 11,
+    "time_seconds": 20.012800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run11_20260315_085123.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 1,
+    "time_seconds": 18.419400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run1_20260315_082412.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 12,
+    "time_seconds": 20.622100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run12_20260315_085348.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 13,
+    "time_seconds": 19.144800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run13_20260315_085614.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 14,
+    "time_seconds": 18.691700,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run14_20260315_085838.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 15,
+    "time_seconds": 18.395300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run15_20260315_090101.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 16,
+    "time_seconds": 18.953200,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run16_20260315_090325.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 17,
+    "time_seconds": 18.775800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run17_20260315_090550.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 18,
+    "time_seconds": 18.841300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run18_20260315_090814.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 19,
+    "time_seconds": 18.868300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run19_20260315_091041.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 20,
+    "time_seconds": 18.730700,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run20_20260315_091305.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 2,
+    "time_seconds": 18.358100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run2_20260315_082708.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 3,
+    "time_seconds": 20.143000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run3_20260315_082950.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 4,
+    "time_seconds": 19.507600,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run4_20260315_083236.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 5,
+    "time_seconds": 19.118800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run5_20260315_083518.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 6,
+    "time_seconds": 19.246800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run6_20260315_083800.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 7,
+    "time_seconds": 19.196300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run7_20260315_084046.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 8,
+    "time_seconds": 19.442100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run8_20260315_084328.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 4,
+    "run": 9,
+    "time_seconds": 19.645200,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/IS/mpi_is_C_t4_run9_20260315_084611.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 10,
+    "time_seconds": 22.230000,
+    "mops": 7003.20,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run10_20260315_075412.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 11,
+    "time_seconds": 21.690000,
+    "mops": 7178.00,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run11_20260315_075717.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 1,
+    "time_seconds": 25.870000,
+    "mops": 6018.65,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run1_20260315_073105.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 12,
+    "time_seconds": 25.250000,
+    "mops": 6164.97,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run12_20260315_075943.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 13,
+    "time_seconds": 24.630000,
+    "mops": 6320.81,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run13_20260315_080221.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 14,
+    "time_seconds": 23.880000,
+    "mops": 6518.48,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run14_20260315_080506.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 15,
+    "time_seconds": 26.170000,
+    "mops": 5948.33,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run15_20260315_080747.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 16,
+    "time_seconds": 25.060000,
+    "mops": 6213.32,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run16_20260315_081032.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 17,
+    "time_seconds": 25.230000,
+    "mops": 6170.95,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run17_20260315_081316.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 18,
+    "time_seconds": 24.790000,
+    "mops": 6280.02,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run18_20260315_081601.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 19,
+    "time_seconds": 24.710000,
+    "mops": 6300.37,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run19_20260315_081844.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 20,
+    "time_seconds": 23.230000,
+    "mops": 6701.64,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run20_20260315_082126.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 2,
+    "time_seconds": 22.410000,
+    "mops": 6947.56,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run2_20260315_073321.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 3,
+    "time_seconds": 23.490000,
+    "mops": 6629.08,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run3_20260315_073559.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 4,
+    "time_seconds": 23.830000,
+    "mops": 6534.81,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run4_20260315_073832.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 5,
+    "time_seconds": 23.770000,
+    "mops": 6551.18,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run5_20260315_074111.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 6,
+    "time_seconds": 20.730000,
+    "mops": 7509.08,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run6_20260315_074346.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 7,
+    "time_seconds": 22.050000,
+    "mops": 7060.75,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run7_20260315_074622.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 8,
+    "time_seconds": 22.400000,
+    "mops": 6949.27,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run8_20260315_074926.txt"
+}
+,
+{
+    "implementation": "MPI",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 4,
+    "run": 9,
+    "time_seconds": 22.710000,
+    "mops": 6854.52,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/MPI/MG/mpi_mg_C_t4_run9_20260315_075206.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 92.710000,
+    "mops": 1546.13,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run10_20260314_024704.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 89.570000,
+    "mops": 1600.36,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run11_20260314_024842.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 91.230000,
+    "mops": 1571.20,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run1_20260314_023230.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 90.110000,
+    "mops": 1590.79,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run12_20260314_025016.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 92.080000,
+    "mops": 1556.75,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run13_20260314_025152.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 91.710000,
+    "mops": 1563.12,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run14_20260314_025329.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 90.340000,
+    "mops": 1586.84,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run15_20260314_025506.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 89.690000,
+    "mops": 1598.26,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run16_20260314_025641.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 91.200000,
+    "mops": 1571.80,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run17_20260314_025815.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 94.370000,
+    "mops": 1519.00,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run18_20260314_025951.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 91.120000,
+    "mops": 1573.25,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run19_20260314_030130.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 92.220000,
+    "mops": 1554.34,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run20_20260314_030306.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 91.060000,
+    "mops": 1574.17,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run2_20260314_023406.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 91.860000,
+    "mops": 1560.50,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run3_20260314_023541.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 96.660000,
+    "mops": 1483.07,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run4_20260314_023718.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 90.770000,
+    "mops": 1579.31,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run5_20260314_023900.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 92.360000,
+    "mops": 1552.12,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run6_20260314_024035.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 93.530000,
+    "mops": 1532.63,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run7_20260314_024212.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 92.020000,
+    "mops": 1557.82,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run8_20260314_024351.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 92.000000,
+    "mops": 1558.16,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/CG/omp_cg_C_t8_run9_20260314_024527.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 70.550000,
+    "mops": 5618.78,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run10_20260314_031537.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 70.640000,
+    "mops": 5611.74,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run11_20260314_031653.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 65.570000,
+    "mops": 6045.61,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run1_20260314_030445.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 63.660000,
+    "mops": 6226.52,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run12_20260314_031808.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 74.610000,
+    "mops": 5312.77,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run13_20260314_031917.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 68.150000,
+    "mops": 5816.33,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run14_20260314_032037.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 66.980000,
+    "mops": 5918.20,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run15_20260314_032150.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 74.410000,
+    "mops": 5326.88,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run16_20260314_032301.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 73.520000,
+    "mops": 5391.77,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run17_20260314_032421.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 72.320000,
+    "mops": 5481.19,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run18_20260314_032540.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 67.340000,
+    "mops": 5886.02,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run19_20260314_032658.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 66.420000,
+    "mops": 5968.02,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run20_20260314_032812.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 65.820000,
+    "mops": 6022.15,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run2_20260314_030555.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 65.700000,
+    "mops": 6033.62,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run3_20260314_030706.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 67.250000,
+    "mops": 5894.62,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run4_20260314_030816.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 64.090000,
+    "mops": 6184.69,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run5_20260314_030928.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 69.760000,
+    "mops": 5682.49,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run6_20260314_031037.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 70.170000,
+    "mops": 5649.29,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run7_20260314_031152.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 70.700000,
+    "mops": 5606.78,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run8_20260314_031306.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 69.890000,
+    "mops": 5671.69,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/FT/omp_ft_C_t8_run9_20260314_031422.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 35.533000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run10_20260315_004351.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 29.434300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run11_20260315_004445.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 26.700500,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run1_20260315_003657.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 34.795000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run12_20260315_004533.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 35.807100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run13_20260315_004626.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 28.689900,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run14_20260315_004720.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 30.560100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run15_20260315_004809.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 38.977700,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run16_20260315_004859.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 29.268800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run17_20260315_004957.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 32.805300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run18_20260315_005044.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 29.879300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run19_20260315_005136.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 31.171300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run20_20260315_005225.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 28.930900,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run2_20260315_003743.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 31.435600,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run3_20260315_003828.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 27.288900,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run4_20260315_003919.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 27.665200,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run5_20260315_004005.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 27.699100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run6_20260315_004057.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 20.516000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run7_20260315_004143.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 27.102800,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run8_20260315_004222.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 27.308400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/IS/omp_is_C_t8_run9_20260315_004304.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 20.200000,
+    "mops": 7706.00,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run10_20260314_033311.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 21.910000,
+    "mops": 7106.88,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run11_20260314_033334.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 24.120000,
+    "mops": 6454.55,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run1_20260314_032926.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 22.630000,
+    "mops": 6880.75,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run12_20260314_033358.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 18.280000,
+    "mops": 8515.88,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run13_20260314_033424.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 24.320000,
+    "mops": 6402.14,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run14_20260314_033446.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 19.750000,
+    "mops": 7883.91,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run15_20260314_033513.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 24.550000,
+    "mops": 6341.14,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run16_20260314_033536.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 22.810000,
+    "mops": 6824.59,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run17_20260314_033603.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 21.300000,
+    "mops": 7309.07,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run18_20260314_033630.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 22.960000,
+    "mops": 6781.90,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run19_20260314_033654.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 19.590000,
+    "mops": 7949.32,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run20_20260314_033720.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 21.860000,
+    "mops": 7121.64,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run2_20260314_032953.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 23.670000,
+    "mops": 6576.91,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run3_20260314_033018.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 19.590000,
+    "mops": 7949.30,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run4_20260314_033044.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 20.920000,
+    "mops": 7444.02,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run5_20260314_033107.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 21.660000,
+    "mops": 7187.38,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run6_20260314_033132.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 22.330000,
+    "mops": 6972.26,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run7_20260314_033157.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 21.410000,
+    "mops": 7272.71,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run8_20260314_033223.txt"
+}
+,
+{
+    "implementation": "OMP",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 20.670000,
+    "mops": 7530.60,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/OMP/MG/omp_mg_C_t8_run9_20260314_033247.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 392.900000,
+    "mops": 364.84,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run10_20260313_214826.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 395.850000,
+    "mops": 362.13,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run11_20260313_215526.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 396.050000,
+    "mops": 361.95,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run1_20260313_204351.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 411.720000,
+    "mops": 348.17,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run12_20260313_220229.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 421.590000,
+    "mops": 340.02,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run13_20260313_220949.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 398.010000,
+    "mops": 360.16,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run14_20260313_221717.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 407.980000,
+    "mops": 351.36,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run15_20260313_222422.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 412.370000,
+    "mops": 347.62,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run16_20260313_223135.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 419.100000,
+    "mops": 342.04,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run17_20260313_223855.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 405.700000,
+    "mops": 353.34,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run18_20260313_224621.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 401.830000,
+    "mops": 356.73,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run19_20260313_225332.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 413.650000,
+    "mops": 346.55,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run20_20260313_230040.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 383.440000,
+    "mops": 373.85,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run2_20260313_205054.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 407.410000,
+    "mops": 351.85,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run3_20260313_205744.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 393.160000,
+    "mops": 364.60,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run4_20260313_210457.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 415.760000,
+    "mops": 344.79,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run5_20260313_211157.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 412.620000,
+    "mops": 347.41,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run6_20260313_211920.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 403.530000,
+    "mops": 355.24,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run7_20260313_212639.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 405.640000,
+    "mops": 353.39,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run8_20260313_213350.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "cg",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 416.100000,
+    "mops": 344.50,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/CG/serial_cg_C_t8_run9_20260313_214102.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 417.690000,
+    "mops": 949.00,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run10_20260314_001348.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 419.340000,
+    "mops": 945.27,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run11_20260314_002111.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 409.230000,
+    "mops": 968.62,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run1_20260313_230802.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 433.950000,
+    "mops": 913.44,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run12_20260314_002835.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 429.340000,
+    "mops": 923.25,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run13_20260314_003613.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 426.620000,
+    "mops": 929.13,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run14_20260314_004346.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 416.590000,
+    "mops": 951.50,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run15_20260314_005117.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 424.230000,
+    "mops": 934.37,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run16_20260314_005842.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 418.190000,
+    "mops": 947.87,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run17_20260314_010610.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 418.780000,
+    "mops": 946.54,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run18_20260314_011333.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 427.030000,
+    "mops": 928.23,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run19_20260314_012056.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 418.890000,
+    "mops": 946.28,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run20_20260314_012827.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 415.160000,
+    "mops": 954.78,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run2_20260313_231515.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 411.860000,
+    "mops": 962.42,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run3_20260313_232238.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 420.840000,
+    "mops": 941.89,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run4_20260313_232957.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 402.370000,
+    "mops": 985.13,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run5_20260313_233722.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 398.640000,
+    "mops": 994.35,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run6_20260313_234431.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 420.320000,
+    "mops": 943.05,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run7_20260313_235133.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 425.680000,
+    "mops": 931.18,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run8_20260313_235900.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "ft",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 413.360000,
+    "mops": 958.93,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/FT/serial_ft_C_t8_run9_20260314_000630.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 21.635000,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run10_20260314_022331.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 22.455200,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run11_20260314_022419.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 22.453900,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run1_20260314_021615.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 21.574500,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run12_20260314_022508.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 21.400300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run13_20260314_022556.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 21.766500,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run14_20260314_022643.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 25.325400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run15_20260314_022731.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 22.019300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run16_20260314_022823.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 22.291300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run17_20260314_022912.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 21.981100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run18_20260314_023001.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 22.662100,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run19_20260314_023050.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 22.162500,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run20_20260314_023139.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 23.523300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run2_20260314_021704.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 22.370600,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run3_20260314_021754.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 21.700300,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run4_20260314_021843.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 22.056600,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run5_20260314_021931.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 21.730400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run6_20260314_022019.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 21.684400,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run7_20260314_022107.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 20.864700,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run8_20260314_022155.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "is",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 22.341900,
+    "mops": null,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/IS/serial_is_C_t8_run9_20260314_022242.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 10,
+    "time_seconds": 104.020000,
+    "mops": 1496.70,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run10_20260314_015403.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 11,
+    "time_seconds": 109.780000,
+    "mops": 1418.24,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run11_20260314_015600.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 1,
+    "time_seconds": 111.560000,
+    "mops": 1395.58,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run1_20260314_013553.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 12,
+    "time_seconds": 100.370000,
+    "mops": 1551.16,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run12_20260314_015802.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 13,
+    "time_seconds": 110.890000,
+    "mops": 1404.00,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run13_20260314_015956.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 14,
+    "time_seconds": 100.520000,
+    "mops": 1548.88,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run14_20260314_020200.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 15,
+    "time_seconds": 110.550000,
+    "mops": 1408.38,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run15_20260314_020354.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 16,
+    "time_seconds": 113.350000,
+    "mops": 1373.50,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run16_20260314_020557.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 17,
+    "time_seconds": 105.350000,
+    "mops": 1477.82,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run17_20260314_020804.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 18,
+    "time_seconds": 109.870000,
+    "mops": 1417.03,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run18_20260314_021007.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 19,
+    "time_seconds": 105.570000,
+    "mops": 1474.76,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run19_20260314_021210.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 20,
+    "time_seconds": 110.220000,
+    "mops": 1412.59,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run20_20260314_021411.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 2,
+    "time_seconds": 103.040000,
+    "mops": 1510.96,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run2_20260314_013757.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 3,
+    "time_seconds": 111.240000,
+    "mops": 1399.66,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run3_20260314_013954.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 4,
+    "time_seconds": 104.850000,
+    "mops": 1484.97,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run4_20260314_014159.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 5,
+    "time_seconds": 104.960000,
+    "mops": 1483.41,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run5_20260314_014402.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 6,
+    "time_seconds": 112.160000,
+    "mops": 1388.15,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run6_20260314_014600.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 7,
+    "time_seconds": 100.730000,
+    "mops": 1545.72,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run7_20260314_014805.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 8,
+    "time_seconds": 113.350000,
+    "mops": 1373.58,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run8_20260314_014959.txt"
+}
+,
+{
+    "implementation": "SERIAL",
+    "benchmark": "mg",
+    "class": "C",
+    "threads": 8,
+    "run": 9,
+    "time_seconds": 103.670000,
+    "mops": 1501.74,
+    "verified": "SUCCESSFUL",
+    "output_file": "Results/SERIAL/MG/serial_mg_C_t8_run9_20260314_015205.txt"
+}
+]

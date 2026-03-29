@@ -9,6 +9,9 @@ OBJS = mg.o mg_data.o ${COMMON}/print_results.o  \
 
 include ../sys/make.common
 
+.SUFFIXES:
+.SUFFIXES: .f90 .f .o
+
 ${PROGRAM}: config ${OBJS}
 	${FLINK} ${FLINKFLAGS} -o ${PROGRAM} ${OBJS} ${F_LIB}
 
@@ -22,3 +25,7 @@ clean:
 	- rm -f *.o *~ *.mod
 	- rm -f npbparams.h core
 	- if [ -d rii_files ]; then rm -r rii_files; fi
+
+# Desativa regra implícita %: %.o
+%: %.o
+	@true

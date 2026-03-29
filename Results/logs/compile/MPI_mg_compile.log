@@ -1,0 +1,81 @@
+rm -f core *~ */core */*~
+rm -f */*.o */*.mod */*.obj */*.exe */npbparams.h */mpinpb.*
+rm -f MPI_dummy/test MPI_dummy/libmpi.a
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -f btio.*.out*
+   =========================================
+   =      NAS Parallel Benchmarks 3.4      =
+   =      MPI/Fortran/C                    =
+   =========================================
+
+cd MG; make CLASS=C F08=def
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/MG'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/sys'
+gcc -g -DFORTRAN_REC_SIZE=0 -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/sys'
+../sys/setparams mg C 
+cp mpinpb_def.f90 mpinpb.f90
+mpif90 -c  -O3 -cpp mpinpb.f90
+mpif90 -c  -O3 -cpp mg_data.f90
+mpif90 -c  -O3 -cpp mg.f90
+cd ../common; mpif90 -c  -O3 -cpp print_results.f90
+cd ../common; cp mpinpb_def.h mpinpb.h
+cd ../common; mpif90 -c  -O3 -cpp get_active_nprocs.f90
+cd ../common; mpif90 -c  -O3 -cpp randi8.f90
+cd ../common; mpif90 -c  -O3 -cpp timers.f90
+mpif90 -O3 -cpp -o ../bin/mg.C.x mg.o mg_data.o mpinpb.o ../common/print_results.o ../common/get_active_nprocs.o ../common/randi8.o ../common/timers.o 
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/MG'
+rm -f core *~ */core */*~
+rm -f */*.o */*.mod */*.obj */*.exe */npbparams.h */mpinpb.*
+rm -f MPI_dummy/test MPI_dummy/libmpi.a
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -f btio.*.out*
+   =========================================
+   =      NAS Parallel Benchmarks 3.4      =
+   =      MPI/Fortran/C                    =
+   =========================================
+
+cd MG; make CLASS=C F08=def
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/MG'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/sys'
+gcc -g -DFORTRAN_REC_SIZE=0 -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/sys'
+../sys/setparams mg C 
+cp mpinpb_def.f90 mpinpb.f90
+mpif90 -c  -O3 -cpp mpinpb.f90
+mpif90 -c  -O3 -cpp mg_data.f90
+mpif90 -c  -O3 -cpp mg.f90
+cd ../common; mpif90 -c  -O3 -cpp print_results.f90
+cd ../common; cp mpinpb_def.h mpinpb.h
+cd ../common; mpif90 -c  -O3 -cpp get_active_nprocs.f90
+cd ../common; mpif90 -c  -O3 -cpp randi8.f90
+cd ../common; mpif90 -c  -O3 -cpp timers.f90
+mpif90 -O3 -cpp -o ../bin/mg.C.x mg.o mg_data.o mpinpb.o ../common/print_results.o ../common/get_active_nprocs.o ../common/randi8.o ../common/timers.o 
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/MG'
+rm -f core *~ */core */*~
+rm -f */*.o */*.mod */*.obj */*.exe */npbparams.h */mpinpb.*
+rm -f MPI_dummy/test MPI_dummy/libmpi.a
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -f btio.*.out*
+   =========================================
+   =      NAS Parallel Benchmarks 3.4      =
+   =      MPI/Fortran/C                    =
+   =========================================
+
+cd MG; make CLASS=C F08=def
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/MG'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/sys'
+gcc -g -DFORTRAN_REC_SIZE=0 -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/sys'
+../sys/setparams mg C 
+cp mpinpb_def.f90 mpinpb.f90
+mpif90 -c  -O3 -cpp mpinpb.f90
+mpif90 -c  -O3 -cpp mg_data.f90
+mpif90 -c  -O3 -cpp mg.f90
+cd ../common; mpif90 -c  -O3 -cpp print_results.f90
+cd ../common; cp mpinpb_def.h mpinpb.h
+cd ../common; mpif90 -c  -O3 -cpp get_active_nprocs.f90
+cd ../common; mpif90 -c  -O3 -cpp randi8.f90
+cd ../common; mpif90 -c  -O3 -cpp timers.f90
+mpif90 -O3 -cpp -o ../bin/mg.C.x mg.o mg_data.o mpinpb.o ../common/print_results.o ../common/get_active_nprocs.o ../common/randi8.o ../common/timers.o 
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/MPI/MG'

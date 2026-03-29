@@ -7,6 +7,9 @@ include ../config/make.def
 
 include ../sys/make.common
 
+.SUFFIXES:
+.SUFFIXES: .f90 .f .o
+
 OBJS = ft.o ft_data.o ${COMMON}/${RAND}.o ${COMMON}/print_results.o \
        ${COMMON}/timers.o ${COMMON}/wtime.o
 
@@ -38,3 +41,7 @@ clean:
 	- rm -f *.o *~ mputil* *.mod
 	- rm -f ft npbparams.h core blk_par.h
 	- if [ -d rii_files ]; then rm -r rii_files; fi
+
+# Desativa regra implícita %: %.o
+%: %.o
+	@true

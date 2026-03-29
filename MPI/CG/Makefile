@@ -11,6 +11,9 @@ OBJS = cg.o cg_data.o mpinpb.o ${COMMON}/print_results.o  \
 
 include ../sys/make.common
 
+.SUFFIXES:
+.SUFFIXES: .f90 .f .o
+
 ${PROGRAM}: config ${OBJS}
 	${FLINK} ${FLINKFLAGS} -o ${PROGRAM} ${OBJS} ${FMPI_LIB}
 
@@ -29,3 +32,7 @@ clean:
 
 
 
+
+# Desativa regra implícita %: %.o
+%: %.o
+	@true

@@ -1,0 +1,222 @@
+[
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 1,
+        "time_seconds": 20.490400,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run1_20260315_011438.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 2,
+        "time_seconds": 23.880500,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run2_20260315_011525.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 3,
+        "time_seconds": 19.809000,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run3_20260315_011614.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 4,
+        "time_seconds": 20.271800,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run4_20260315_011700.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 5,
+        "time_seconds": 21.766800,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run5_20260315_011746.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 6,
+        "time_seconds": 19.455100,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run6_20260315_011834.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 7,
+        "time_seconds": 20.793000,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run7_20260315_011918.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 8,
+        "time_seconds": 21.652600,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run8_20260315_012005.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 9,
+        "time_seconds": 21.016500,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run9_20260315_012053.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 10,
+        "time_seconds": 19.939200,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run10_20260315_012140.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 11,
+        "time_seconds": 27.148400,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run11_20260315_012228.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 12,
+        "time_seconds": 26.943400,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run12_20260315_012325.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 13,
+        "time_seconds": 22.003600,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run13_20260315_012422.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 14,
+        "time_seconds": 27.801000,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run14_20260315_012512.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 15,
+        "time_seconds": 24.378100,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run15_20260315_012608.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 16,
+        "time_seconds": 24.304300,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run16_20260315_012701.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 17,
+        "time_seconds": 29.672000,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run17_20260315_012755.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 18,
+        "time_seconds": 30.055200,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run18_20260315_012854.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 19,
+        "time_seconds": 28.603700,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run19_20260315_012956.txt"
+    },
+{
+        "implementation": "DO_CONCURRENT",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 20,
+        "time_seconds": 23.597600,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/DO_CONCURRENT/IS/do_concurrent_is_C_t8_run20_20260315_013057.txt"
+    }
+]

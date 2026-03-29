@@ -1,0 +1,222 @@
+[
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 1,
+        "time_seconds": 26.700500,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run1_20260315_003657.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 2,
+        "time_seconds": 28.930900,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run2_20260315_003743.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 3,
+        "time_seconds": 31.435600,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run3_20260315_003828.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 4,
+        "time_seconds": 27.288900,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run4_20260315_003919.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 5,
+        "time_seconds": 27.665200,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run5_20260315_004005.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 6,
+        "time_seconds": 27.699100,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run6_20260315_004057.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 7,
+        "time_seconds": 20.516000,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run7_20260315_004143.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 8,
+        "time_seconds": 27.102800,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run8_20260315_004222.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 9,
+        "time_seconds": 27.308400,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run9_20260315_004304.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 10,
+        "time_seconds": 35.533000,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run10_20260315_004351.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 11,
+        "time_seconds": 29.434300,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run11_20260315_004445.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 12,
+        "time_seconds": 34.795000,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run12_20260315_004533.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 13,
+        "time_seconds": 35.807100,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run13_20260315_004626.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 14,
+        "time_seconds": 28.689900,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run14_20260315_004720.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 15,
+        "time_seconds": 30.560100,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run15_20260315_004809.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 16,
+        "time_seconds": 38.977700,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run16_20260315_004859.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 17,
+        "time_seconds": 29.268800,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run17_20260315_004957.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 18,
+        "time_seconds": 32.805300,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run18_20260315_005044.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 19,
+        "time_seconds": 29.879300,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run19_20260315_005136.txt"
+    },
+{
+        "implementation": "OMP",
+        "benchmark": "is",
+        "class": "C",
+        "threads": 8,
+        "run": 20,
+        "time_seconds": 31.171300,
+        "mops": Mkeys/s,
+        "verified": "SUCCESSFUL",
+        "output_file": "/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/Results/OMP/IS/omp_is_C_t8_run20_20260315_005225.txt"
+    }
+]

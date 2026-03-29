@@ -1,0 +1,25 @@
+rm -f core *~ */core */*~
+rm -f */*.o */*.obj */*.exe */*.mod */npbparams.h */blk_par.h
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -rf */rii_files
+   ============================================
+   =      NAS PARALLEL BENCHMARKS 3.4         =
+   =      OpenMP Versions                     =
+   =      Fortran/C                           =
+   ============================================
+
+cd CG; make CLASS=C
+make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/CG'
+make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/sys'
+gcc  -o setparams setparams.c
+make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/sys'
+../sys/setparams cg C
+nvfortran -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree -c cg_data.f90
+sed 's/ &$//; s/^     &/     >/' npbparams.h > npbparams_fixed.h
+nvfortran -I../common -I. -c -O3 -stdpar=multicore -Mpreprocess -Mfixed cg.f90
+cd ../common; nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree print_results.f90
+cd ../common; nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree randi8.f90
+cd ../common; nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree timers.f90
+cd ../common; gcc -c  -O3 -fopenmp  -o wtime.o ../common/wtime.c
+nvfortran -O3 -stdpar=multicore -Mpreprocess -Mfree -o ../bin/cg.C.x cg.o cg_data.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/CG'

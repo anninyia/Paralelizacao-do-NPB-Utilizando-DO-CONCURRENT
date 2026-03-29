@@ -1,0 +1,28 @@
+
+  NAS Parallel Benchmarks - IS Benchmark (MPI Fortran)
+  Size:    134217728  (class C)
+  Iterations:   10
+  Processes:     4
+
+    iteration
+               1
+               2
+               3
+               4
+               5
+               6
+               7
+               8
+               9
+              10
+
+ ============================================
+  IS Benchmark Completed  [MPI]
+  Class           = C
+  Size (total keys)=    134217728
+  Iterations       =   10
+  Processes        =    4
+  Time in seconds  =      19.1448 s
+  Mop/s total      =      70.1067 Mkeys/s
+   Verification     = SUCCESSFUL
+ ============================================
