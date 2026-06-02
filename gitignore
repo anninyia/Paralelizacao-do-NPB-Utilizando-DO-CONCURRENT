@@ -1,1 +1,17 @@
-./venv/
+# Python
+venv/
+__pycache__/
+
+# Arquivos gerados pelo Fortran
+*.o
+*.mod
+*.exe
+
+# Resultados temporários
+*.out
+
+# Logs
+*.log
+
+# Pastas específicas
+npb_original/

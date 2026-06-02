@@ -8,16 +8,16 @@ rm -f {DC/,}ADC.{logf,view,dat,viewsz,groupby,chunks}.*
    =      F77/C                              =
    ===========================================
 
-cd MG; make CLASS=C
-make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/MG'
-make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+cd MG; make CLASS=S
+make[1]: Entering directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/MG'
+make[2]: Entering directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
 cc  -o setparams setparams.c
-make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
-../sys/setparams mg C
-f77 -c  -O -mcmodel=medium mg.f
-cd ../common; f77 -c  -O -mcmodel=medium print_results.f
-cd ../common; f77 -c  -O -mcmodel=medium randi8.f
-cd ../common; f77 -c  -O -mcmodel=medium timers.f
+make[2]: Leaving directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/sys'
+../sys/setparams mg S
+gfortran -c  -O -mcmodel=medium mg.f
+cd ../common; gfortran -c  -O -mcmodel=medium print_results.f
+cd ../common; gfortran -c  -O -mcmodel=medium randi8.f
+cd ../common; gfortran -c  -O -mcmodel=medium timers.f
 cd ../common; cc  -c  -O -mcmodel=medium  -o wtime.o ../common/wtime.c
-f77 -O -o ../bin/mg.C.x mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
-make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/MG'
+gfortran -O -o ../bin/mg.S.x mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/SERIAL/MG'

@@ -1,0 +1,51 @@
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:        1400
+ Iterations:                     15
+ Number of available threads:     4
+
+ Initialization time =           0.006 seconds
+
+   iteration           ||r||                 zeta
+        1       0.13756312906007E-12     9.9986441579140
+        5       0.18882991068434E-14     8.5971549151767
+       10       0.18226029887027E-14     8.5971775064409
+       15       0.18092733578232E-14     8.5971775078648
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.8597177507865E+01
+ Error is    0.1239725599088E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        S
+ Size            =                     1400
+ Iterations      =                       15
+ Time in seconds =                     0.03
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                  2225.15
+ Mop/s/thread    =                   556.29
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.3
+ Compile date    =              02 Jun 2026
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

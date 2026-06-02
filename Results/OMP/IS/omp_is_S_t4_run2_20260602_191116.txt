@@ -1,0 +1,17 @@
+
+  NAS Parallel Benchmarks - IS Benchmark (OpenMP Fortran)
+  Size:        65536  (class S)
+  Iterations:   10
+  Threads:       4
+
+
+ ============================================
+  IS Benchmark Completed  [OpenMP]
+  Class           = S
+  Size (total keys)=        65536
+  Iterations       =   10
+  Threads          =    4
+  Time in seconds  =       0.0241 s
+  Mop/s total      =      27.2352 Mkeys/s
+   Verification     = SUCCESSFUL
+ ============================================

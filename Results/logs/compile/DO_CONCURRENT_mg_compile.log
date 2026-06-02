@@ -8,17 +8,14 @@ rm -rf */rii_files
    =      Fortran/C                           =
    ============================================
 
-cd MG; make CLASS=C
-make[1]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/MG'
-make[2]: Entering directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/sys'
+cd MG; make CLASS=S
+make[1]: Entering directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/MG'
+make[2]: Entering directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/sys'
 gcc  -o setparams setparams.c
-make[2]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/sys'
-../sys/setparams mg C
+make[2]: Leaving directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/sys'
+../sys/setparams mg S
 nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree mg_data.f90
-nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree mg.f90
-cd ../common; nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree print_results.f90
-cd ../common; nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree randi8.f90
-cd ../common; nvfortran -c -I../common -I. -O3 -stdpar=multicore -Mpreprocess -Mfree timers.f90
-cd ../common; gcc -c  -O3 -fopenmp  -o wtime.o ../common/wtime.c
-nvfortran -O3 -stdpar=multicore -Mpreprocess -Mfree -o ../bin/mg.C.x mg.o mg_data.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
-make[1]: Leaving directory '/home/arquitetura/anninyia/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/MG'
+make[1]: nvfortran: No such file or directory
+make[1]: *** [Makefile:19: mg_data.o] Error 127
+make[1]: Leaving directory '/home/anna/Paralelizacao-do-NPB-Utilizando-DO-CONCURRENT/DO_CONCURRENT/MG'
+make: *** [Makefile:23: mg] Error 2

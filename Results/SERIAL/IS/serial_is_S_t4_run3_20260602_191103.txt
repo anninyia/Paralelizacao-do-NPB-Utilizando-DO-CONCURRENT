@@ -1,0 +1,15 @@
+
+  NAS Parallel Benchmarks - IS Benchmark (Serial Fortran)
+  Size:        65536  (class S)
+  Iterations:   10
+
+
+ ============================================
+  IS Benchmark Completed
+  Class           = S
+  Size (total keys)=        65536
+  Iterations       =   10
+  Time in seconds  =       0.0039 s
+  Mop/s total      =     166.0400 Mkeys/s
+   Verification     = SUCCESSFUL
+ ============================================
