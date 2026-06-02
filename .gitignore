@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Arquivos compilados Fortran
+*.o
+*.mod
+
+# Executáveis gerados pelos benchmarks
+*.exe
+*.out
+
+# Arquivos temporários
+*.tmp
+*.log
+
+# Arquivos extraídos do NPB original
+npb_original/
+
+# Arquivos compactados
+*.gz
+*.zip
+*.tar
