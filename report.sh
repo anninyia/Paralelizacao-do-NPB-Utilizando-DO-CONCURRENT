@@ -77,17 +77,22 @@ select_menu() {
     local total=${#_items[@]}
     print_menu "$1"
     read -rp "${2} [padrão: TODOS]: " inp
-    inp="${inp:-$((total+1))}"
+    inp="${inp:-TODOS}"
     local selected=()
-    if [[ "$inp" =~ ^[0-9\ ]+$ ]]; then
+
+    # Aceita "TODOS", "todos", número do item TODOS, ou lista de números
+    if [[ "${inp^^}" == "TODOS" ]] || [[ "$inp" == "$((total+1))" ]]; then
+        selected=("${_items[@]}")
+    elif [[ "$inp" =~ ^[0-9\ ]+$ ]]; then
         for n in $inp; do
             if (( n >= 1 && n <= total )); then
                 selected+=("${_items[$((n-1))]}")
-            elif (( n == total+1 )); then
-                selected=("${_items[@]}"); break
             fi
         done
     fi
+
+    # Fallback: se nada foi selecionado, seleciona tudo
+    [[ ${#selected[@]} -eq 0 ]] && selected=("${_items[@]}")
     [[ ${#selected[@]} -eq 0 ]] && selected=("${_items[@]}")
     echo "${selected[@]}"
 }
