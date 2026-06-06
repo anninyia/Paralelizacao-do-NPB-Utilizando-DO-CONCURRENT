@@ -25,3 +25,20 @@ npb_original/
 *.gz
 *.zip
 *.tar
+
+# Binários dos benchmarks NPB
+*/bin/*.x
+*/bin/
+
+# Resultados de execução (JSONs e outputs ficam só local)
+Results/
+
+# Arquivos de objeto e módulos Fortran (em subpastas)
+*/*.o
+*/*.mod
+**/*.o
+**/*.mod
+
+# Arquivos gerados pelo sys/ do NPB
+*/sys/setparams
+*/sys/*.o
