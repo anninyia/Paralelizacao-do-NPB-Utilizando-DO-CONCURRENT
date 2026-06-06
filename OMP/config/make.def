@@ -29,7 +29,7 @@
 #---------------------------------------------------------------------------
 # This is the fortran compiler used for Fortran programs
 #---------------------------------------------------------------------------
-FC = gfortran
+FC = nvfortran
 # This links fortran programs; usually the same as ${FC}
 FLINK	= $(FC)
 
@@ -46,7 +46,7 @@ F_INC =
 #---------------------------------------------------------------------------
 # Global *compile time* flags for Fortran programs
 #---------------------------------------------------------------------------
-FFLAGS	= -O3 -fopenmp
+FFLAGS  = -O3 -mp -Mpreprocess -Mfree
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
