@@ -1,0 +1,10 @@
+ 
+  NAS Parallel Benchmarks 3.4 -- IS Benchmark
+ 
+  Size:          65536  (class S)
+  Iterations:            10
+  Number of processes: 1
+ 
+  Time:    0.1930470466613770       seconds
+  Passed verification:             1
+ 

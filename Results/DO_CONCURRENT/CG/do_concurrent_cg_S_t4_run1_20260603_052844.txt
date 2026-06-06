@@ -1,0 +1,58 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark
+
+ Size:        1400
+ Iterations:    15
+ 
+ Initialization time =           0.328 seconds
+
+   iteration           ||r||                 zeta
+        1       0.13468821977960E-12     9.9986441579140
+        2       0.19183326045232E-14     8.5733279203222
+        3       0.18540873481927E-14     8.5954510374058
+        4       0.18267255101883E-14     8.5969972340737
+        5       0.18949695278769E-14     8.5971549151767
+        6       0.18402352423904E-14     8.5971744311608
+        7       0.17533394958198E-14     8.5971770704913
+        8       0.18567151471311E-14     8.5971774440630
+        9       0.17148477781665E-14     8.5971774983942
+       10       0.16298658829519E-14     8.5971775064409
+       11       0.15064325346944E-14     8.5971775076486
+       12       0.16415524282954E-14     8.5971775078318
+       13       0.16318261814124E-14     8.5971775078598
+       14       0.15503748856717E-14     8.5971775078641
+       15       0.16471799801098E-14     8.5971775078648
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.8597177507865E+01
+ Error is    0.1239725599088E-14
+
+
+ CG Benchmark Completed.
+ Class           =                        S
+ Size            =                     1400
+ Iterations      =                       15
+ Time in seconds =                     3.81
+ Mop/s total     =                    17.49
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              07 Mar 2026
+
+ Compile options:
+    FC           = nvfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = -I../common -I.
+    FFLAGS       = -O3 -stdpar=multicore -Mpreprocess -Mfree
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
